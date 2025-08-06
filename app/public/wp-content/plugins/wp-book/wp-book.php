@@ -1,0 +1,53 @@
+<?php
+/*
+Plugin Name: WP Book
+Plugin URI: https://github.com/yourusername/wp-book
+Description: A plugin to manage and display books using custom post types, taxonomies, meta fields, shortcodes, and widgets.
+Version: 1.0.0
+Author: Vinay Chavada
+Text Domain: wp-book
+Domain Path: /languages
+*/
+
+defined( 'ABSPATH' ) or die( 'No script kiddies please!' );
+
+// Load plugin textdomain
+function wp_book_load_textdomain() {
+    load_plugin_textdomain( 'wp-book', false, dirname( plugin_basename( __FILE__ ) ) . '/languages' );
+}
+add_action( 'plugins_loaded', 'wp_book_load_textdomain' );
+
+// Include all required files in later steps
+
+// Register Custom Post Type: Book
+function wp_book_register_post_type() {
+    $labels = array(
+        'name'                  => __( 'Books', 'wp-book' ),
+        'singular_name'         => __( 'Book', 'wp-book' ),
+        'menu_name'             => __( 'Books', 'wp-book' ),
+        'name_admin_bar'        => __( 'Book', 'wp-book' ),
+        'add_new'               => __( 'Add New', 'wp-book' ),
+        'add_new_item'          => __( 'Add New Book', 'wp-book' ),
+        'new_item'              => __( 'New Book', 'wp-book' ),
+        'edit_item'             => __( 'Edit Book', 'wp-book' ),
+        'view_item'             => __( 'View Book', 'wp-book' ),
+        'all_items'             => __( 'All Books', 'wp-book' ),
+        'search_items'          => __( 'Search Books', 'wp-book' ),
+        'not_found'             => __( 'No books found.', 'wp-book' ),
+        'not_found_in_trash'    => __( 'No books found in Trash.', 'wp-book' ),
+    );
+
+    $args = array(
+        'labels'             => $labels,
+        'public'             => true,
+        'has_archive'        => true,
+        'rewrite'            => array( 'slug' => 'books' ),
+        'supports'           => array( 'title', 'editor', 'thumbnail', 'excerpt', 'comments' ),
+        'show_in_rest'       => true,
+        'menu_position'      => 5,
+        'menu_icon'          => 'dashicons-book-alt',
+    );
+
+    register_post_type( 'book', $args );
+}
+add_action( 'init', 'wp_book_register_post_type' );
