@@ -115,3 +115,24 @@ function wp_book_register_taxonomy_tag() {
 }
 add_action( 'init', 'wp_book_register_taxonomy_tag' );
 
+// Display Book Categories and Tags after book content
+function wp_book_append_taxonomies_to_content( $content ) {
+    if ( is_singular( 'book' ) && in_the_loop() && is_main_query() ) {
+        $categories = get_the_term_list( get_the_ID(), 'book_category', '<strong>Category:</strong> ', ', ' );
+        $tags       = get_the_term_list( get_the_ID(), 'book_tag', '<strong>Tags:</strong> ', ', ' );
+
+        $taxonomy_output = '<div class="book-taxonomies">';
+        if ( $categories ) {
+            $taxonomy_output .= '<p>' . $categories . '</p>';
+        }
+        if ( $tags ) {
+            $taxonomy_output .= '<p>' . $tags . '</p>';
+        }
+        $taxonomy_output .= '</div>';
+
+        $content .= $taxonomy_output;
+    }
+
+    return $content;
+}
+add_filter( 'the_content', 'wp_book_append_taxonomies_to_content' );
