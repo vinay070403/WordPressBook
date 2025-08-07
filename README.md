@@ -158,4 +158,33 @@ Developed by Vinay...... its me
 
 <img width="1396" height="827" alt="image" src="https://github.com/user-attachments/assets/6903cc59-a216-4c52-86b4-7d76bb9dd9c4" />
 
+```
+[book] - Display all books (5 per page)
+[book number="3"] - Show specific number of books
+[book category="fiction"] - Filter by category
+[book category="fiction, science"] - Filter by multiple categories
+[book tag="bestseller"] - Filter by tag
+[book author="J.K. Rowling"] - Filter by author
+[book publisher="Penguin"] - Filter by publisher
+[book year="2020"] - Filter by year
+Display Options
+[book display="grid" columns="3"] - Grid view
+[book display="list"] - List view
+[book show_thumbnail="0" show_excerpt="0"] - Hide thumbnails and excerpts
+[book show_content="1"] - Show full content
+Sorting Shortcodes
+[book orderby="title" order="ASC"] - Sort by title (A-Z)
+[book orderby="meta_value" meta_key="_wp_book_price" order="ASC" meta_type="NUMERIC"] - Sort by price
+[book orderby="date" order="DESC"] - Newest first
+Advanced Shortcodes
+[book ids="1,5,8"] - Show specific books by ID
+[book exclude="3,7"] - Exclude specific books
+[book paginate="1" per_page="3"] - Add pagination
+[book template="custom-books"] - Use custom template
+[book meta_query='[{"key":"_wp_book_price","value":["10","50"],"compare":"BETWEEN","type":"NUMERIC"}'] - Price range
+Combination Examples
+[book tag="bestseller" year="2020"] - Bestsellers from 2020
+[book category="science-fiction" author="Andy Weir"] - Filter by category and author
+[book meta_query='[{"key":"_wp_book_price","value":"10","compare":"<","type":"NUMERIC"}'] - Books under $10
+```
 
