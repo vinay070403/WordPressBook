@@ -1,0 +1,659 @@
+[07-Aug-2025 15:42:50 UTC] PHP Warning:  require_once(): http:// wrapper is disabled in the server configuration by allow_url_include=0 in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 143
+[07-Aug-2025 15:42:50 UTC] PHP Warning:  require_once(http://wordpressbook.local/wp-content/plugins/wp-book/includes/setting-page.php): Failed to open stream: no suitable wrapper could be found in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 143
+[07-Aug-2025 15:42:50 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'http://wordpressbook.local/wp-content/plugins/wp-book/includes/setting-page.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php:143
+Stack trace:
+#0 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-settings.php(545): include_once()
+#1 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-config.php(103): require_once('C:\\Users\\vinay\\...')
+#2 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-load.php(50): require_once('C:\\Users\\vinay\\...')
+#3 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\vinay\\...')
+#4 {main}
+  thrown in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 143
+[07-Aug-2025 15:42:54 UTC] PHP Warning:  require_once(): http:// wrapper is disabled in the server configuration by allow_url_include=0 in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 143
+[07-Aug-2025 15:42:54 UTC] PHP Warning:  require_once(http://wordpressbook.local/wp-content/plugins/wp-book/includes/setting-page.php): Failed to open stream: no suitable wrapper could be found in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 143
+[07-Aug-2025 15:42:54 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'http://wordpressbook.local/wp-content/plugins/wp-book/includes/setting-page.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php:143
+Stack trace:
+#0 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-settings.php(545): include_once()
+#1 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-config.php(103): require_once('C:\\Users\\vinay\\...')
+#2 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-load.php(50): require_once('C:\\Users\\vinay\\...')
+#3 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-admin\admin.php(35): require_once('C:\\Users\\vinay\\...')
+#4 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-admin\edit.php(10): require_once('C:\\Users\\vinay\\...')
+#5 {main}
+  thrown in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 143
+[07-Aug-2025 15:42:54 UTC] PHP Warning:  require_once(): http:// wrapper is disabled in the server configuration by allow_url_include=0 in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 143
+[07-Aug-2025 15:42:54 UTC] PHP Warning:  require_once(http://wordpressbook.local/wp-content/plugins/wp-book/includes/setting-page.php): Failed to open stream: no suitable wrapper could be found in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 143
+[07-Aug-2025 15:42:54 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'http://wordpressbook.local/wp-content/plugins/wp-book/includes/setting-page.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php:143
+Stack trace:
+#0 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-settings.php(545): include_once()
+#1 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-config.php(103): require_once('C:\\Users\\vinay\\...')
+#2 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-load.php(50): require_once('C:\\Users\\vinay\\...')
+#3 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-blog-header.php(13): require_once('C:\\Users\\vinay\\...')
+#4 C:\Users\vinay\Local Sites\wordpressbook\app\public\index.php(17): require('C:\\Users\\vinay\\...')
+#5 {main}
+  thrown in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 143
+[07-Aug-2025 15:45:03 UTC] PHP Warning:  require_once(C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php): Failed to open stream: No such file or directory in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 143
+[07-Aug-2025 15:45:03 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php:143
+Stack trace:
+#0 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-settings.php(545): include_once()
+#1 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-config.php(103): require_once('C:\\Users\\vinay\\...')
+#2 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-load.php(50): require_once('C:\\Users\\vinay\\...')
+#3 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-admin\admin.php(35): require_once('C:\\Users\\vinay\\...')
+#4 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-admin\edit.php(10): require_once('C:\\Users\\vinay\\...')
+#5 {main}
+  thrown in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 143
+[07-Aug-2025 15:45:03 UTC] PHP Warning:  require_once(C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php): Failed to open stream: No such file or directory in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 143
+[07-Aug-2025 15:45:03 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php:143
+Stack trace:
+#0 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-settings.php(545): include_once()
+#1 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-config.php(103): require_once('C:\\Users\\vinay\\...')
+#2 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-load.php(50): require_once('C:\\Users\\vinay\\...')
+#3 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-blog-header.php(13): require_once('C:\\Users\\vinay\\...')
+#4 C:\Users\vinay\Local Sites\wordpressbook\app\public\index.php(17): require('C:\\Users\\vinay\\...')
+#5 {main}
+  thrown in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 143
+[07-Aug-2025 15:45:06 UTC] PHP Warning:  require_once(C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php): Failed to open stream: No such file or directory in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 143
+[07-Aug-2025 15:45:06 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php:143
+Stack trace:
+#0 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-settings.php(545): include_once()
+#1 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-config.php(103): require_once('C:\\Users\\vinay\\...')
+#2 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-load.php(50): require_once('C:\\Users\\vinay\\...')
+#3 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-admin\admin.php(35): require_once('C:\\Users\\vinay\\...')
+#4 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-admin\edit.php(10): require_once('C:\\Users\\vinay\\...')
+#5 {main}
+  thrown in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 143
+[07-Aug-2025 15:45:06 UTC] PHP Warning:  require_once(C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php): Failed to open stream: No such file or directory in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 143
+[07-Aug-2025 15:45:06 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php:143
+Stack trace:
+#0 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-settings.php(545): include_once()
+#1 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-config.php(103): require_once('C:\\Users\\vinay\\...')
+#2 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-load.php(50): require_once('C:\\Users\\vinay\\...')
+#3 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-blog-header.php(13): require_once('C:\\Users\\vinay\\...')
+#4 C:\Users\vinay\Local Sites\wordpressbook\app\public\index.php(17): require('C:\\Users\\vinay\\...')
+#5 {main}
+  thrown in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 143
+[07-Aug-2025 15:45:08 UTC] PHP Warning:  require_once(C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php): Failed to open stream: No such file or directory in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 143
+[07-Aug-2025 15:45:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php:143
+Stack trace:
+#0 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-settings.php(545): include_once()
+#1 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-config.php(103): require_once('C:\\Users\\vinay\\...')
+#2 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-load.php(50): require_once('C:\\Users\\vinay\\...')
+#3 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-admin\admin.php(35): require_once('C:\\Users\\vinay\\...')
+#4 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-admin\edit.php(10): require_once('C:\\Users\\vinay\\...')
+#5 {main}
+  thrown in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 143
+[07-Aug-2025 15:45:08 UTC] PHP Warning:  require_once(C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php): Failed to open stream: No such file or directory in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 143
+[07-Aug-2025 15:45:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php:143
+Stack trace:
+#0 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-settings.php(545): include_once()
+#1 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-config.php(103): require_once('C:\\Users\\vinay\\...')
+#2 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-load.php(50): require_once('C:\\Users\\vinay\\...')
+#3 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-blog-header.php(13): require_once('C:\\Users\\vinay\\...')
+#4 C:\Users\vinay\Local Sites\wordpressbook\app\public\index.php(17): require('C:\\Users\\vinay\\...')
+#5 {main}
+  thrown in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 143
+[07-Aug-2025 15:45:09 UTC] PHP Warning:  require_once(C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php): Failed to open stream: No such file or directory in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 143
+[07-Aug-2025 15:45:09 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php:143
+Stack trace:
+#0 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-settings.php(545): include_once()
+#1 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-config.php(103): require_once('C:\\Users\\vinay\\...')
+#2 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-load.php(50): require_once('C:\\Users\\vinay\\...')
+#3 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-admin\admin.php(35): require_once('C:\\Users\\vinay\\...')
+#4 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-admin\options-permalink.php(10): require_once('C:\\Users\\vinay\\...')
+#5 {main}
+  thrown in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 143
+[07-Aug-2025 15:45:09 UTC] PHP Warning:  require_once(C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php): Failed to open stream: No such file or directory in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 143
+[07-Aug-2025 15:45:09 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php:143
+Stack trace:
+#0 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-settings.php(545): include_once()
+#1 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-config.php(103): require_once('C:\\Users\\vinay\\...')
+#2 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-load.php(50): require_once('C:\\Users\\vinay\\...')
+#3 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-blog-header.php(13): require_once('C:\\Users\\vinay\\...')
+#4 C:\Users\vinay\Local Sites\wordpressbook\app\public\index.php(17): require('C:\\Users\\vinay\\...')
+#5 {main}
+  thrown in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 143
+[07-Aug-2025 15:45:12 UTC] PHP Warning:  require_once(C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php): Failed to open stream: No such file or directory in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 143
+[07-Aug-2025 15:45:12 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php:143
+Stack trace:
+#0 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-settings.php(545): include_once()
+#1 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-config.php(103): require_once('C:\\Users\\vinay\\...')
+#2 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-load.php(50): require_once('C:\\Users\\vinay\\...')
+#3 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-admin\admin.php(35): require_once('C:\\Users\\vinay\\...')
+#4 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-admin\options-permalink.php(10): require_once('C:\\Users\\vinay\\...')
+#5 {main}
+  thrown in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 143
+[07-Aug-2025 15:45:12 UTC] PHP Warning:  require_once(C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php): Failed to open stream: No such file or directory in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 143
+[07-Aug-2025 15:45:12 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php:143
+Stack trace:
+#0 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-settings.php(545): include_once()
+#1 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-config.php(103): require_once('C:\\Users\\vinay\\...')
+#2 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-load.php(50): require_once('C:\\Users\\vinay\\...')
+#3 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-blog-header.php(13): require_once('C:\\Users\\vinay\\...')
+#4 C:\Users\vinay\Local Sites\wordpressbook\app\public\index.php(17): require('C:\\Users\\vinay\\...')
+#5 {main}
+  thrown in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 143
+[07-Aug-2025 15:45:12 UTC] PHP Warning:  require_once(C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php): Failed to open stream: No such file or directory in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 143
+[07-Aug-2025 15:45:12 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php:143
+Stack trace:
+#0 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-settings.php(545): include_once()
+#1 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-config.php(103): require_once('C:\\Users\\vinay\\...')
+#2 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-load.php(50): require_once('C:\\Users\\vinay\\...')
+#3 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-admin\admin.php(35): require_once('C:\\Users\\vinay\\...')
+#4 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-admin\options-permalink.php(10): require_once('C:\\Users\\vinay\\...')
+#5 {main}
+  thrown in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 143
+[07-Aug-2025 15:45:12 UTC] PHP Warning:  require_once(C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php): Failed to open stream: No such file or directory in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 143
+[07-Aug-2025 15:45:12 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php:143
+Stack trace:
+#0 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-settings.php(545): include_once()
+#1 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-config.php(103): require_once('C:\\Users\\vinay\\...')
+#2 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-load.php(50): require_once('C:\\Users\\vinay\\...')
+#3 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-blog-header.php(13): require_once('C:\\Users\\vinay\\...')
+#4 C:\Users\vinay\Local Sites\wordpressbook\app\public\index.php(17): require('C:\\Users\\vinay\\...')
+#5 {main}
+  thrown in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 143
+[07-Aug-2025 15:45:13 UTC] PHP Warning:  require_once(C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php): Failed to open stream: No such file or directory in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 143
+[07-Aug-2025 15:45:13 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php:143
+Stack trace:
+#0 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-settings.php(545): include_once()
+#1 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-config.php(103): require_once('C:\\Users\\vinay\\...')
+#2 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-load.php(50): require_once('C:\\Users\\vinay\\...')
+#3 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-admin\admin.php(35): require_once('C:\\Users\\vinay\\...')
+#4 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-admin\options-permalink.php(10): require_once('C:\\Users\\vinay\\...')
+#5 {main}
+  thrown in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 143
+[07-Aug-2025 15:45:13 UTC] PHP Warning:  require_once(C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php): Failed to open stream: No such file or directory in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 143
+[07-Aug-2025 15:45:13 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php:143
+Stack trace:
+#0 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-settings.php(545): include_once()
+#1 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-config.php(103): require_once('C:\\Users\\vinay\\...')
+#2 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-load.php(50): require_once('C:\\Users\\vinay\\...')
+#3 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-blog-header.php(13): require_once('C:\\Users\\vinay\\...')
+#4 C:\Users\vinay\Local Sites\wordpressbook\app\public\index.php(17): require('C:\\Users\\vinay\\...')
+#5 {main}
+  thrown in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 143
+[07-Aug-2025 15:53:29 UTC] PHP Warning:  require_once(C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php): Failed to open stream: No such file or directory in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 143
+[07-Aug-2025 15:53:29 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php:143
+Stack trace:
+#0 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-settings.php(545): include_once()
+#1 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-config.php(103): require_once('C:\\Users\\vinay\\...')
+#2 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-load.php(50): require_once('C:\\Users\\vinay\\...')
+#3 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-admin\admin.php(35): require_once('C:\\Users\\vinay\\...')
+#4 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-admin\options-permalink.php(10): require_once('C:\\Users\\vinay\\...')
+#5 {main}
+  thrown in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 143
+[07-Aug-2025 15:53:29 UTC] PHP Warning:  require_once(C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php): Failed to open stream: No such file or directory in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 143
+[07-Aug-2025 15:53:29 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php:143
+Stack trace:
+#0 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-settings.php(545): include_once()
+#1 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-config.php(103): require_once('C:\\Users\\vinay\\...')
+#2 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-load.php(50): require_once('C:\\Users\\vinay\\...')
+#3 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-blog-header.php(13): require_once('C:\\Users\\vinay\\...')
+#4 C:\Users\vinay\Local Sites\wordpressbook\app\public\index.php(17): require('C:\\Users\\vinay\\...')
+#5 {main}
+  thrown in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 143
+[07-Aug-2025 15:54:00 UTC] PHP Warning:  require_once(C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php): Failed to open stream: No such file or directory in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 144
+[07-Aug-2025 15:54:00 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php:144
+Stack trace:
+#0 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-settings.php(545): include_once()
+#1 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-config.php(103): require_once('C:\\Users\\vinay\\...')
+#2 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-load.php(50): require_once('C:\\Users\\vinay\\...')
+#3 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-admin\admin.php(35): require_once('C:\\Users\\vinay\\...')
+#4 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-admin\options-permalink.php(10): require_once('C:\\Users\\vinay\\...')
+#5 {main}
+  thrown in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 144
+[07-Aug-2025 15:54:00 UTC] PHP Warning:  require_once(C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php): Failed to open stream: No such file or directory in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 144
+[07-Aug-2025 15:54:00 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php:144
+Stack trace:
+#0 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-settings.php(545): include_once()
+#1 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-config.php(103): require_once('C:\\Users\\vinay\\...')
+#2 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-load.php(50): require_once('C:\\Users\\vinay\\...')
+#3 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-blog-header.php(13): require_once('C:\\Users\\vinay\\...')
+#4 C:\Users\vinay\Local Sites\wordpressbook\app\public\index.php(17): require('C:\\Users\\vinay\\...')
+#5 {main}
+  thrown in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 144
+[07-Aug-2025 15:54:03 UTC] PHP Warning:  require_once(C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php): Failed to open stream: No such file or directory in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 144
+[07-Aug-2025 15:54:03 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php:144
+Stack trace:
+#0 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-settings.php(545): include_once()
+#1 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-config.php(103): require_once('C:\\Users\\vinay\\...')
+#2 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-load.php(50): require_once('C:\\Users\\vinay\\...')
+#3 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-admin\admin.php(35): require_once('C:\\Users\\vinay\\...')
+#4 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-admin\options-permalink.php(10): require_once('C:\\Users\\vinay\\...')
+#5 {main}
+  thrown in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 144
+[07-Aug-2025 15:54:03 UTC] PHP Warning:  require_once(C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php): Failed to open stream: No such file or directory in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 144
+[07-Aug-2025 15:54:03 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php:144
+Stack trace:
+#0 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-settings.php(545): include_once()
+#1 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-config.php(103): require_once('C:\\Users\\vinay\\...')
+#2 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-load.php(50): require_once('C:\\Users\\vinay\\...')
+#3 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-blog-header.php(13): require_once('C:\\Users\\vinay\\...')
+#4 C:\Users\vinay\Local Sites\wordpressbook\app\public\index.php(17): require('C:\\Users\\vinay\\...')
+#5 {main}
+  thrown in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 144
+[07-Aug-2025 15:54:03 UTC] PHP Warning:  require_once(C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php): Failed to open stream: No such file or directory in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 144
+[07-Aug-2025 15:54:03 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php:144
+Stack trace:
+#0 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-settings.php(545): include_once()
+#1 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-config.php(103): require_once('C:\\Users\\vinay\\...')
+#2 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-load.php(50): require_once('C:\\Users\\vinay\\...')
+#3 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-admin\admin.php(35): require_once('C:\\Users\\vinay\\...')
+#4 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-admin\options-general.php(10): require_once('C:\\Users\\vinay\\...')
+#5 {main}
+  thrown in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 144
+[07-Aug-2025 15:54:04 UTC] PHP Warning:  require_once(C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php): Failed to open stream: No such file or directory in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 144
+[07-Aug-2025 15:54:04 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php:144
+Stack trace:
+#0 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-settings.php(545): include_once()
+#1 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-config.php(103): require_once('C:\\Users\\vinay\\...')
+#2 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-load.php(50): require_once('C:\\Users\\vinay\\...')
+#3 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-blog-header.php(13): require_once('C:\\Users\\vinay\\...')
+#4 C:\Users\vinay\Local Sites\wordpressbook\app\public\index.php(17): require('C:\\Users\\vinay\\...')
+#5 {main}
+  thrown in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 144
+[07-Aug-2025 15:54:04 UTC] PHP Warning:  require_once(C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php): Failed to open stream: No such file or directory in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 144
+[07-Aug-2025 15:54:04 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php:144
+Stack trace:
+#0 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-settings.php(545): include_once()
+#1 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-config.php(103): require_once('C:\\Users\\vinay\\...')
+#2 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-load.php(50): require_once('C:\\Users\\vinay\\...')
+#3 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-admin\admin.php(35): require_once('C:\\Users\\vinay\\...')
+#4 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-admin\plugins.php(10): require_once('C:\\Users\\vinay\\...')
+#5 {main}
+  thrown in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 144
+[07-Aug-2025 15:54:04 UTC] PHP Warning:  require_once(C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php): Failed to open stream: No such file or directory in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 144
+[07-Aug-2025 15:54:04 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php:144
+Stack trace:
+#0 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-settings.php(545): include_once()
+#1 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-config.php(103): require_once('C:\\Users\\vinay\\...')
+#2 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-load.php(50): require_once('C:\\Users\\vinay\\...')
+#3 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-blog-header.php(13): require_once('C:\\Users\\vinay\\...')
+#4 C:\Users\vinay\Local Sites\wordpressbook\app\public\index.php(17): require('C:\\Users\\vinay\\...')
+#5 {main}
+  thrown in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 144
+[07-Aug-2025 15:54:05 UTC] PHP Warning:  require_once(C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php): Failed to open stream: No such file or directory in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 144
+[07-Aug-2025 15:54:05 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php:144
+Stack trace:
+#0 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-settings.php(545): include_once()
+#1 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-config.php(103): require_once('C:\\Users\\vinay\\...')
+#2 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-load.php(50): require_once('C:\\Users\\vinay\\...')
+#3 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-admin\admin.php(35): require_once('C:\\Users\\vinay\\...')
+#4 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-admin\plugins.php(10): require_once('C:\\Users\\vinay\\...')
+#5 {main}
+  thrown in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 144
+[07-Aug-2025 15:54:05 UTC] PHP Warning:  require_once(C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php): Failed to open stream: No such file or directory in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 144
+[07-Aug-2025 15:54:05 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php:144
+Stack trace:
+#0 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-settings.php(545): include_once()
+#1 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-config.php(103): require_once('C:\\Users\\vinay\\...')
+#2 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-load.php(50): require_once('C:\\Users\\vinay\\...')
+#3 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-blog-header.php(13): require_once('C:\\Users\\vinay\\...')
+#4 C:\Users\vinay\Local Sites\wordpressbook\app\public\index.php(17): require('C:\\Users\\vinay\\...')
+#5 {main}
+  thrown in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 144
+[07-Aug-2025 15:54:06 UTC] PHP Warning:  require_once(C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php): Failed to open stream: No such file or directory in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 144
+[07-Aug-2025 15:54:06 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php:144
+Stack trace:
+#0 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-settings.php(545): include_once()
+#1 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-config.php(103): require_once('C:\\Users\\vinay\\...')
+#2 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-load.php(50): require_once('C:\\Users\\vinay\\...')
+#3 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-admin\admin.php(35): require_once('C:\\Users\\vinay\\...')
+#4 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-admin\plugins.php(10): require_once('C:\\Users\\vinay\\...')
+#5 {main}
+  thrown in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 144
+[07-Aug-2025 15:54:06 UTC] PHP Warning:  require_once(C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php): Failed to open stream: No such file or directory in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 144
+[07-Aug-2025 15:54:06 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php:144
+Stack trace:
+#0 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-settings.php(545): include_once()
+#1 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-config.php(103): require_once('C:\\Users\\vinay\\...')
+#2 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-load.php(50): require_once('C:\\Users\\vinay\\...')
+#3 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-blog-header.php(13): require_once('C:\\Users\\vinay\\...')
+#4 C:\Users\vinay\Local Sites\wordpressbook\app\public\index.php(17): require('C:\\Users\\vinay\\...')
+#5 {main}
+  thrown in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 144
+[07-Aug-2025 15:54:07 UTC] PHP Warning:  require_once(C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php): Failed to open stream: No such file or directory in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 144
+[07-Aug-2025 15:54:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php:144
+Stack trace:
+#0 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-settings.php(545): include_once()
+#1 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-config.php(103): require_once('C:\\Users\\vinay\\...')
+#2 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-load.php(50): require_once('C:\\Users\\vinay\\...')
+#3 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-admin\admin.php(35): require_once('C:\\Users\\vinay\\...')
+#4 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-admin\edit.php(10): require_once('C:\\Users\\vinay\\...')
+#5 {main}
+  thrown in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 144
+[07-Aug-2025 15:54:07 UTC] PHP Warning:  require_once(C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php): Failed to open stream: No such file or directory in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 144
+[07-Aug-2025 15:54:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php:144
+Stack trace:
+#0 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-settings.php(545): include_once()
+#1 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-config.php(103): require_once('C:\\Users\\vinay\\...')
+#2 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-load.php(50): require_once('C:\\Users\\vinay\\...')
+#3 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-blog-header.php(13): require_once('C:\\Users\\vinay\\...')
+#4 C:\Users\vinay\Local Sites\wordpressbook\app\public\index.php(17): require('C:\\Users\\vinay\\...')
+#5 {main}
+  thrown in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 144
+[07-Aug-2025 15:54:15 UTC] PHP Warning:  require_once(C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php): Failed to open stream: No such file or directory in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 144
+[07-Aug-2025 15:54:15 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php:144
+Stack trace:
+#0 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-settings.php(545): include_once()
+#1 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-config.php(103): require_once('C:\\Users\\vinay\\...')
+#2 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-load.php(50): require_once('C:\\Users\\vinay\\...')
+#3 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-admin\admin.php(35): require_once('C:\\Users\\vinay\\...')
+#4 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-admin\edit.php(10): require_once('C:\\Users\\vinay\\...')
+#5 {main}
+  thrown in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 144
+[07-Aug-2025 15:54:15 UTC] PHP Warning:  require_once(C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php): Failed to open stream: No such file or directory in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 144
+[07-Aug-2025 15:54:15 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php:144
+Stack trace:
+#0 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-settings.php(545): include_once()
+#1 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-config.php(103): require_once('C:\\Users\\vinay\\...')
+#2 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-load.php(50): require_once('C:\\Users\\vinay\\...')
+#3 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-blog-header.php(13): require_once('C:\\Users\\vinay\\...')
+#4 C:\Users\vinay\Local Sites\wordpressbook\app\public\index.php(17): require('C:\\Users\\vinay\\...')
+#5 {main}
+  thrown in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 144
+[07-Aug-2025 15:54:16 UTC] PHP Warning:  require_once(C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php): Failed to open stream: No such file or directory in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 144
+[07-Aug-2025 15:54:16 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php:144
+Stack trace:
+#0 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-settings.php(545): include_once()
+#1 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-config.php(103): require_once('C:\\Users\\vinay\\...')
+#2 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-load.php(50): require_once('C:\\Users\\vinay\\...')
+#3 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-admin\admin.php(35): require_once('C:\\Users\\vinay\\...')
+#4 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-admin\edit.php(10): require_once('C:\\Users\\vinay\\...')
+#5 {main}
+  thrown in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 144
+[07-Aug-2025 15:54:16 UTC] PHP Warning:  require_once(C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php): Failed to open stream: No such file or directory in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 144
+[07-Aug-2025 15:54:16 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php:144
+Stack trace:
+#0 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-settings.php(545): include_once()
+#1 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-config.php(103): require_once('C:\\Users\\vinay\\...')
+#2 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-load.php(50): require_once('C:\\Users\\vinay\\...')
+#3 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-blog-header.php(13): require_once('C:\\Users\\vinay\\...')
+#4 C:\Users\vinay\Local Sites\wordpressbook\app\public\index.php(17): require('C:\\Users\\vinay\\...')
+#5 {main}
+  thrown in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 144
+[07-Aug-2025 15:54:16 UTC] PHP Warning:  require_once(C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php): Failed to open stream: No such file or directory in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 144
+[07-Aug-2025 15:54:16 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php:144
+Stack trace:
+#0 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-settings.php(545): include_once()
+#1 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-config.php(103): require_once('C:\\Users\\vinay\\...')
+#2 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-load.php(50): require_once('C:\\Users\\vinay\\...')
+#3 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-admin\admin.php(35): require_once('C:\\Users\\vinay\\...')
+#4 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-admin\edit.php(10): require_once('C:\\Users\\vinay\\...')
+#5 {main}
+  thrown in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 144
+[07-Aug-2025 15:54:16 UTC] PHP Warning:  require_once(C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php): Failed to open stream: No such file or directory in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 144
+[07-Aug-2025 15:54:16 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php:144
+Stack trace:
+#0 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-settings.php(545): include_once()
+#1 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-config.php(103): require_once('C:\\Users\\vinay\\...')
+#2 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-load.php(50): require_once('C:\\Users\\vinay\\...')
+#3 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-blog-header.php(13): require_once('C:\\Users\\vinay\\...')
+#4 C:\Users\vinay\Local Sites\wordpressbook\app\public\index.php(17): require('C:\\Users\\vinay\\...')
+#5 {main}
+  thrown in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 144
+[07-Aug-2025 15:54:16 UTC] PHP Warning:  require_once(C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php): Failed to open stream: No such file or directory in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 144
+[07-Aug-2025 15:54:16 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php:144
+Stack trace:
+#0 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-settings.php(545): include_once()
+#1 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-config.php(103): require_once('C:\\Users\\vinay\\...')
+#2 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-load.php(50): require_once('C:\\Users\\vinay\\...')
+#3 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-admin\admin.php(35): require_once('C:\\Users\\vinay\\...')
+#4 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-admin\edit.php(10): require_once('C:\\Users\\vinay\\...')
+#5 {main}
+  thrown in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 144
+[07-Aug-2025 15:54:16 UTC] PHP Warning:  require_once(C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php): Failed to open stream: No such file or directory in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 144
+[07-Aug-2025 15:54:16 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php:144
+Stack trace:
+#0 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-settings.php(545): include_once()
+#1 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-config.php(103): require_once('C:\\Users\\vinay\\...')
+#2 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-load.php(50): require_once('C:\\Users\\vinay\\...')
+#3 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-blog-header.php(13): require_once('C:\\Users\\vinay\\...')
+#4 C:\Users\vinay\Local Sites\wordpressbook\app\public\index.php(17): require('C:\\Users\\vinay\\...')
+#5 {main}
+  thrown in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 144
+[07-Aug-2025 15:54:16 UTC] PHP Warning:  require_once(C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php): Failed to open stream: No such file or directory in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 144
+[07-Aug-2025 15:54:16 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php:144
+Stack trace:
+#0 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-settings.php(545): include_once()
+#1 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-config.php(103): require_once('C:\\Users\\vinay\\...')
+#2 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-load.php(50): require_once('C:\\Users\\vinay\\...')
+#3 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-admin\admin.php(35): require_once('C:\\Users\\vinay\\...')
+#4 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-admin\edit.php(10): require_once('C:\\Users\\vinay\\...')
+#5 {main}
+  thrown in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 144
+[07-Aug-2025 15:54:16 UTC] PHP Warning:  require_once(C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php): Failed to open stream: No such file or directory in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 144
+[07-Aug-2025 15:54:16 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php:144
+Stack trace:
+#0 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-settings.php(545): include_once()
+#1 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-config.php(103): require_once('C:\\Users\\vinay\\...')
+#2 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-load.php(50): require_once('C:\\Users\\vinay\\...')
+#3 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-blog-header.php(13): require_once('C:\\Users\\vinay\\...')
+#4 C:\Users\vinay\Local Sites\wordpressbook\app\public\index.php(17): require('C:\\Users\\vinay\\...')
+#5 {main}
+  thrown in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 144
+[07-Aug-2025 15:54:23 UTC] PHP Warning:  require_once(C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php): Failed to open stream: No such file or directory in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 144
+[07-Aug-2025 15:54:23 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php:144
+Stack trace:
+#0 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-settings.php(545): include_once()
+#1 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-config.php(103): require_once('C:\\Users\\vinay\\...')
+#2 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-load.php(50): require_once('C:\\Users\\vinay\\...')
+#3 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-admin\admin.php(35): require_once('C:\\Users\\vinay\\...')
+#4 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-admin\index.php(10): require_once('C:\\Users\\vinay\\...')
+#5 {main}
+  thrown in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 144
+[07-Aug-2025 15:54:23 UTC] PHP Warning:  require_once(C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php): Failed to open stream: No such file or directory in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 144
+[07-Aug-2025 15:54:23 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php:144
+Stack trace:
+#0 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-settings.php(545): include_once()
+#1 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-config.php(103): require_once('C:\\Users\\vinay\\...')
+#2 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-load.php(50): require_once('C:\\Users\\vinay\\...')
+#3 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-blog-header.php(13): require_once('C:\\Users\\vinay\\...')
+#4 C:\Users\vinay\Local Sites\wordpressbook\app\public\index.php(17): require('C:\\Users\\vinay\\...')
+#5 {main}
+  thrown in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 144
+[07-Aug-2025 15:54:58 UTC] PHP Warning:  require_once(C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php): Failed to open stream: No such file or directory in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 145
+[07-Aug-2025 15:54:58 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php:145
+Stack trace:
+#0 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-settings.php(545): include_once()
+#1 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-config.php(103): require_once('C:\\Users\\vinay\\...')
+#2 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-load.php(50): require_once('C:\\Users\\vinay\\...')
+#3 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-admin\admin.php(35): require_once('C:\\Users\\vinay\\...')
+#4 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-admin\edit.php(10): require_once('C:\\Users\\vinay\\...')
+#5 {main}
+  thrown in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 145
+[07-Aug-2025 15:54:58 UTC] PHP Warning:  require_once(C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php): Failed to open stream: No such file or directory in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 145
+[07-Aug-2025 15:54:58 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php:145
+Stack trace:
+#0 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-settings.php(545): include_once()
+#1 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-config.php(103): require_once('C:\\Users\\vinay\\...')
+#2 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-load.php(50): require_once('C:\\Users\\vinay\\...')
+#3 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-blog-header.php(13): require_once('C:\\Users\\vinay\\...')
+#4 C:\Users\vinay\Local Sites\wordpressbook\app\public\index.php(17): require('C:\\Users\\vinay\\...')
+#5 {main}
+  thrown in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 145
+[07-Aug-2025 15:55:56 UTC] PHP Warning:  require_once(C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php): Failed to open stream: No such file or directory in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 143
+[07-Aug-2025 15:55:56 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php:143
+Stack trace:
+#0 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-settings.php(545): include_once()
+#1 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-config.php(103): require_once('C:\\Users\\vinay\\...')
+#2 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-load.php(50): require_once('C:\\Users\\vinay\\...')
+#3 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-admin\admin.php(35): require_once('C:\\Users\\vinay\\...')
+#4 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-admin\edit.php(10): require_once('C:\\Users\\vinay\\...')
+#5 {main}
+  thrown in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 143
+[07-Aug-2025 15:55:56 UTC] PHP Warning:  require_once(C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php): Failed to open stream: No such file or directory in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 143
+[07-Aug-2025 15:55:56 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php:143
+Stack trace:
+#0 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-settings.php(545): include_once()
+#1 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-config.php(103): require_once('C:\\Users\\vinay\\...')
+#2 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-load.php(50): require_once('C:\\Users\\vinay\\...')
+#3 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-blog-header.php(13): require_once('C:\\Users\\vinay\\...')
+#4 C:\Users\vinay\Local Sites\wordpressbook\app\public\index.php(17): require('C:\\Users\\vinay\\...')
+#5 {main}
+  thrown in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 143
+[07-Aug-2025 15:57:15 UTC] PHP Warning:  require_once(C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php): Failed to open stream: No such file or directory in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 143
+[07-Aug-2025 15:57:15 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php:143
+Stack trace:
+#0 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-settings.php(545): include_once()
+#1 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-config.php(103): require_once('C:\\Users\\vinay\\...')
+#2 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-load.php(50): require_once('C:\\Users\\vinay\\...')
+#3 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\vinay\\...')
+#4 {main}
+  thrown in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 143
+[07-Aug-2025 15:57:19 UTC] PHP Warning:  require_once(C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php): Failed to open stream: No such file or directory in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 143
+[07-Aug-2025 15:57:19 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php:143
+Stack trace:
+#0 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-settings.php(545): include_once()
+#1 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-config.php(103): require_once('C:\\Users\\vinay\\...')
+#2 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-load.php(50): require_once('C:\\Users\\vinay\\...')
+#3 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-admin\admin.php(35): require_once('C:\\Users\\vinay\\...')
+#4 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-admin\edit.php(10): require_once('C:\\Users\\vinay\\...')
+#5 {main}
+  thrown in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 143
+[07-Aug-2025 15:57:19 UTC] PHP Warning:  require_once(C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php): Failed to open stream: No such file or directory in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 143
+[07-Aug-2025 15:57:19 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php:143
+Stack trace:
+#0 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-settings.php(545): include_once()
+#1 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-config.php(103): require_once('C:\\Users\\vinay\\...')
+#2 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-load.php(50): require_once('C:\\Users\\vinay\\...')
+#3 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-blog-header.php(13): require_once('C:\\Users\\vinay\\...')
+#4 C:\Users\vinay\Local Sites\wordpressbook\app\public\index.php(17): require('C:\\Users\\vinay\\...')
+#5 {main}
+  thrown in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 143
+[07-Aug-2025 15:58:26 UTC] PHP Warning:  require_once(C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php): Failed to open stream: No such file or directory in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 143
+[07-Aug-2025 15:58:26 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php:143
+Stack trace:
+#0 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-settings.php(545): include_once()
+#1 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-config.php(103): require_once('C:\\Users\\vinay\\...')
+#2 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-load.php(50): require_once('C:\\Users\\vinay\\...')
+#3 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-blog-header.php(13): require_once('C:\\Users\\vinay\\...')
+#4 C:\Users\vinay\Local Sites\wordpressbook\app\public\index.php(17): require('C:\\Users\\vinay\\...')
+#5 {main}
+  thrown in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 143
+[07-Aug-2025 15:58:26 UTC] PHP Warning:  require_once(C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php): Failed to open stream: No such file or directory in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 143
+[07-Aug-2025 15:58:26 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php:143
+Stack trace:
+#0 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-settings.php(545): include_once()
+#1 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-config.php(103): require_once('C:\\Users\\vinay\\...')
+#2 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-load.php(50): require_once('C:\\Users\\vinay\\...')
+#3 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-blog-header.php(13): require_once('C:\\Users\\vinay\\...')
+#4 C:\Users\vinay\Local Sites\wordpressbook\app\public\index.php(17): require('C:\\Users\\vinay\\...')
+#5 {main}
+  thrown in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 143
+[07-Aug-2025 15:59:40 UTC] PHP Warning:  require_once(C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php): Failed to open stream: No such file or directory in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 143
+[07-Aug-2025 15:59:40 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php:143
+Stack trace:
+#0 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-settings.php(545): include_once()
+#1 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-config.php(103): require_once('C:\\Users\\vinay\\...')
+#2 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-load.php(50): require_once('C:\\Users\\vinay\\...')
+#3 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-blog-header.php(13): require_once('C:\\Users\\vinay\\...')
+#4 C:\Users\vinay\Local Sites\wordpressbook\app\public\index.php(17): require('C:\\Users\\vinay\\...')
+#5 {main}
+  thrown in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 143
+[07-Aug-2025 15:59:40 UTC] PHP Warning:  require_once(C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php): Failed to open stream: No such file or directory in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 143
+[07-Aug-2025 15:59:40 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book/includes/setting-page.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php:143
+Stack trace:
+#0 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-settings.php(545): include_once()
+#1 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-config.php(103): require_once('C:\\Users\\vinay\\...')
+#2 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-load.php(50): require_once('C:\\Users\\vinay\\...')
+#3 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-blog-header.php(13): require_once('C:\\Users\\vinay\\...')
+#4 C:\Users\vinay\Local Sites\wordpressbook\app\public\index.php(17): require('C:\\Users\\vinay\\...')
+#5 {main}
+  thrown in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php on line 143
+[07-Aug-2025 16:52:08 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "wp_book_render_meta_box" not found or invalid function name in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-admin\includes\template.php:1456
+Stack trace:
+#0 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-admin\includes\post.php(2393): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#1 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-admin\edit-form-blocks.php(383): the_block_editor_meta_boxes()
+#2 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-admin\post-new.php(72): require('C:\\Users\\vinay\\...')
+#3 {main}
+  thrown in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-admin\includes\template.php on line 1456
+[07-Aug-2025 16:52:16 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "wp_book_render_meta_box" not found or invalid function name in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-admin\includes\template.php:1456
+Stack trace:
+#0 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-admin\includes\post.php(2393): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#1 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-admin\edit-form-blocks.php(383): the_block_editor_meta_boxes()
+#2 C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-admin\post-new.php(72): require('C:\\Users\\vinay\\...')
+#3 {main}
+  thrown in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-admin\includes\template.php on line 1456
+[07-Aug-2025 17:27:01 UTC] PHP Fatal error:  Cannot redeclare wp_book_register_settings() (previously declared in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php:175) in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\includes\settings-page.php on line 16
+[07-Aug-2025 17:27:11 UTC] PHP Fatal error:  Cannot redeclare wp_book_register_settings() (previously declared in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\wp-book.php:175) in C:\Users\vinay\Local Sites\wordpressbook\app\public\wp-content\plugins\wp-book\includes\settings-page.php on line 16
+[07-Aug-2025 18:11:42 UTC] WP Book Widget registered successfully
+[07-Aug-2025 18:11:47 UTC] WP Book Widget registered successfully
+[07-Aug-2025 18:11:49 UTC] WP Book Widget registered successfully
+[07-Aug-2025 18:12:02 UTC] WP Book Widget registered successfully
+[07-Aug-2025 18:12:03 UTC] WP Book Widget registered successfully
+[07-Aug-2025 18:13:02 UTC] WP Book Widget registered successfully
+[07-Aug-2025 18:14:02 UTC] WP Book Widget registered successfully
+[07-Aug-2025 18:14:05 UTC] WP Book Widget registered successfully
+[07-Aug-2025 18:14:10 UTC] WP Book Widget registered successfully
+[07-Aug-2025 18:14:12 UTC] WP Book Widget registered successfully
+[07-Aug-2025 18:14:12 UTC] WP Book Widget registered successfully
+[07-Aug-2025 18:14:12 UTC] WP Book Widget registered successfully
+[07-Aug-2025 18:14:12 UTC] WP Book Widget registered successfully
+[07-Aug-2025 18:14:12 UTC] WP Book Widget registered successfully
+[07-Aug-2025 18:14:12 UTC] WP Book Widget registered successfully
+[07-Aug-2025 18:14:12 UTC] WP Book Widget registered successfully
+[07-Aug-2025 18:14:13 UTC] WP Book Widget registered successfully
+[07-Aug-2025 18:14:13 UTC] WP Book Widget registered successfully
+[07-Aug-2025 18:14:13 UTC] WP Book Widget registered successfully
+[07-Aug-2025 18:14:13 UTC] WP Book Widget registered successfully
+[07-Aug-2025 18:14:13 UTC] WP Book Widget registered successfully
+[07-Aug-2025 18:14:13 UTC] WP Book Widget registered successfully
+[07-Aug-2025 18:14:13 UTC] WP Book Widget registered successfully
+[07-Aug-2025 18:14:15 UTC] WP Book Widget registered successfully
+[07-Aug-2025 18:14:15 UTC] WP Book Widget registered successfully
+[07-Aug-2025 18:14:16 UTC] WP Book Widget registered successfully
+[07-Aug-2025 18:14:16 UTC] WP Book Widget registered successfully
+[07-Aug-2025 18:14:16 UTC] WP Book Widget registered successfully
+[07-Aug-2025 18:14:16 UTC] WP Book Widget registered successfully
+[07-Aug-2025 18:14:16 UTC] WP Book Widget registered successfully
+[07-Aug-2025 18:14:16 UTC] WP Book Widget registered successfully
+[07-Aug-2025 18:14:16 UTC] WP Book Widget registered successfully
+[07-Aug-2025 18:14:16 UTC] WP Book Widget registered successfully
+[07-Aug-2025 18:14:16 UTC] WP Book Widget registered successfully
+[07-Aug-2025 18:14:16 UTC] WP Book Widget registered successfully
+[07-Aug-2025 18:14:16 UTC] WP Book Widget registered successfully
+[07-Aug-2025 18:14:17 UTC] WP Book Widget registered successfully
+[07-Aug-2025 18:14:17 UTC] WP Book Widget registered successfully
+[07-Aug-2025 18:14:17 UTC] WP Book Widget registered successfully
+[07-Aug-2025 18:14:17 UTC] WP Book Widget registered successfully
+[07-Aug-2025 18:14:21 UTC] WP Book Widget registered successfully
+[07-Aug-2025 18:14:21 UTC] WP Book Widget registered successfully
+[07-Aug-2025 18:14:21 UTC] WP Book Widget registered successfully
+[07-Aug-2025 18:14:21 UTC] WP Book Widget registered successfully
+[07-Aug-2025 18:14:21 UTC] WP Book Widget registered successfully
+[07-Aug-2025 18:14:21 UTC] WP Book Widget registered successfully
+[07-Aug-2025 18:14:21 UTC] WP Book Widget registered successfully
+[07-Aug-2025 18:14:21 UTC] WP Book Widget registered successfully
+[07-Aug-2025 18:14:21 UTC] WP Book Widget registered successfully
+[07-Aug-2025 18:14:21 UTC] WP Book Widget registered successfully
+[07-Aug-2025 18:14:21 UTC] WP Book Widget registered successfully
+[07-Aug-2025 18:14:37 UTC] WP Book Widget registered successfully
+[07-Aug-2025 18:14:37 UTC] WP Book Widget registered successfully
+[07-Aug-2025 18:14:38 UTC] WP Book Widget registered successfully
+[07-Aug-2025 18:14:38 UTC] WP Book Widget registered successfully
+[07-Aug-2025 18:14:38 UTC] WP Book Widget registered successfully
+[07-Aug-2025 18:14:38 UTC] WP Book Widget registered successfully
+[07-Aug-2025 18:14:38 UTC] WP Book Widget registered successfully
+[07-Aug-2025 18:14:38 UTC] WP Book Widget registered successfully
+[07-Aug-2025 18:14:48 UTC] WP Book Widget registered successfully
+[07-Aug-2025 18:14:48 UTC] WP Book Widget registered successfully
+[07-Aug-2025 18:14:59 UTC] WP Book Widget registered successfully
+[07-Aug-2025 18:15:12 UTC] WP Book Widget registered successfully
+[07-Aug-2025 18:15:56 UTC] WP Book Widget registered successfully
+[07-Aug-2025 18:15:57 UTC] WP Book Widget registered successfully
+[07-Aug-2025 18:16:12 UTC] WP Book Widget registered successfully
+[07-Aug-2025 18:16:13 UTC] WP Book Widget registered successfully
+[07-Aug-2025 18:16:15 UTC] WP Book Widget registered successfully
+[07-Aug-2025 18:16:21 UTC] WP Book Widget registered successfully
+[07-Aug-2025 18:16:27 UTC] WP Book Widget registered successfully
+[07-Aug-2025 18:16:36 UTC] WP Book Widget registered successfully
+[07-Aug-2025 18:16:41 UTC] WP Book Widget registered successfully
+[07-Aug-2025 18:16:41 UTC] WP Book Widget registered successfully
+[07-Aug-2025 18:16:47 UTC] WP Book Widget registered successfully
+[07-Aug-2025 18:17:12 UTC] WP Book Widget registered successfully
+[07-Aug-2025 18:17:20 UTC] WP Book Widget registered successfully
+[07-Aug-2025 18:17:20 UTC] WP Book Widget registered successfully
+[07-Aug-2025 18:17:21 UTC] WP Book Widget registered successfully
+[07-Aug-2025 18:17:25 UTC] WP Book Widget registered successfully
+[07-Aug-2025 18:17:25 UTC] WP Book Widget registered successfully
+[07-Aug-2025 18:17:27 UTC] WP Book Widget registered successfully
+[07-Aug-2025 18:18:27 UTC] WP Book Widget registered successfully
