@@ -129,31 +129,4 @@ $currency  = get_option( 'wp_book_currency', '$' );
 </div><!-- #primary -->
 
 <?php
-
 get_footer();
-        'wp_book_currency_field_html',
-        'wp-book-settings',
-        'wp_book_main_section',
-    );
-
-    add_settings_field(
-        'wp_book_per_page',
-        __( 'Books per Page', 'wp-book' ),
-        'wp_book_per_page_field_html',
-        'wp-book-settings',
-        'wp_book_main_section'
-    );
-}
-add_action( 'admin_init', 'wp_book_register_settings' );
-
-// Field: Currency
-function wp_book_currency_field_html() {
-    $value = get_option( 'wp_book_currency', '$' );
-    echo '<input type="text" name="wp_book_currency" value="' . esc_attr( $value ) . '" />';
-}
-
-// Field: Books per Page
-function wp_book_per_page_field_html() {
-    $value = get_option( 'wp_book_per_page', '10' );
-    echo '<input type="number" name="wp_book_per_page" value="' . esc_attr( $value ) . '" min="1" />';
-}
