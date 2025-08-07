@@ -17,7 +17,13 @@ function wp_book_load_textdomain() {
 }
 add_action( 'plugins_loaded', 'wp_book_load_textdomain' );
 
-// Include all required files in later steps
+// Include all required files
+require_once plugin_dir_path(__FILE__) . 'includes/install.php';
+require_once plugin_dir_path(__FILE__) . 'includes/meta-boxes.php';
+require_once plugin_dir_path(__FILE__) . 'includes/settings-page.php';
+require_once plugin_dir_path(__FILE__) . 'includes/shortcodes.php';
+require_once plugin_dir_path(__FILE__) . 'includes/widgets.php';
+require_once plugin_dir_path(__FILE__) . 'includes/dashboard-widget.php';
 
 // Register Custom Post Type: Book
 function wp_book_register_post_type() {
@@ -38,14 +44,21 @@ function wp_book_register_post_type() {
     );
 
     $args = array(
-        'labels'             => $labels,
-        'public'             => true,
-        'has_archive'        => true,
-        'rewrite'            => array( 'slug' => 'books' ),
-        'supports'           => array( 'title', 'editor', 'thumbnail', 'excerpt', 'comments' ),
-        'show_in_rest'       => true,
-        'menu_position'      => 5,
-        'menu_icon'          => 'dashicons-book-alt',
+        'labels'              => $labels,
+        'public'              => true,
+        'has_archive'         => true,
+        'rewrite'             => array( 'slug' => 'books' ),
+        'supports'            => array( 'title', 'editor', 'thumbnail', 'excerpt', 'comments' ),
+        'show_in_rest'        => true,
+        'menu_position'       => 5,
+        'menu_icon'           => 'dashicons-book-alt',
+        'show_ui'             => true,
+        'show_in_menu'        => true,
+        'show_in_nav_menus'   => true,
+        'publicly_queryable'  => true,
+        'exclude_from_search' => false,
+        'capability_type'     => 'post',
+        'hierarchical'        => false,
     );
 
     register_post_type( 'book', $args );
@@ -136,3 +149,46 @@ function wp_book_append_taxonomies_to_content( $content ) {
     return $content;
 }
 add_filter( 'the_content', 'wp_book_append_taxonomies_to_content' );
+
+// Include meta box file
+require_once plugin_dir_path( __FILE__ ) . 'includes/meta-boxes.php';
+
+// Include settings page
+require_once plugin_dir_path( __FILE__ ) . 'includes/settings-page.php';
+
+// Register activation and uninstall hooks
+register_activation_hook(__FILE__, 'wp_book_activate');
+register_uninstall_hook(__FILE__, 'wp_book_uninstall');
+
+/**
+ * Plugin activation function
+ */
+function wp_book_activate() {
+    // Create custom meta table
+    wp_book_create_custom_meta_table();
+    
+    // Flush rewrite rules for custom post type and taxonomies
+    flush_rewrite_rules();
+}
+
+/**
+ * Plugin uninstallation function
+ */
+function wp_book_uninstall() {
+    global $wpdb;
+    
+    // Delete plugin options
+    delete_option('wp_book_currency');
+    delete_option('wp_book_per_page');
+    
+    // Delete all book meta
+    $wpdb->query("DELETE FROM $wpdb->postmeta WHERE meta_key LIKE '\_wp_book\_%'");
+    
+    // Delete the custom table
+    $table_name = $wpdb->prefix . 'book_meta';
+    $wpdb->query("DROP TABLE IF EXISTS $table_name");
+    
+    // Clear any cached data that might be related to our plugin
+    wp_cache_flush();
+}
+
